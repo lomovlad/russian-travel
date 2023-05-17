@@ -1,0 +1,16 @@
+.header__lang-link {
+  font-size: 1.5rem;
+  line-height: 1.17;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__lang-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc( (100vw - 20rem)/(48 - 20) * (1.5 - 1.125) + 1.125rem);
+  }
+}

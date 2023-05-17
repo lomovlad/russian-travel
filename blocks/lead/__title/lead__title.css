@@ -1,0 +1,14 @@
+.lead__title {
+  box-sizing: border-box;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 1.04;
+  margin: 0 auto 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: calc( (100vw - 20rem)/(48 - 20) * (6 - 2.5) + 2.5rem);
+  }
+}

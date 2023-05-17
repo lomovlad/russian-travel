@@ -1,0 +1,18 @@
+.cover {
+  max-width: 92.5%;
+  margin: 0 auto;
+  background-image: url('../../images/cover__background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  position: relative;
+  aspect-ratio: 1184 / 740;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
+}

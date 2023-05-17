@@ -1,0 +1,19 @@
+.lead {
+  box-sizing: border-box;
+  max-width: 76.875%;
+  margin: 0 auto;
+  padding: 48px 0 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
+}
