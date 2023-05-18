@@ -1,18 +1,19 @@
 .places {
   max-width: 76.875%;
   margin: 0 auto;
-	padding-bottom: 82px;
+	padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 93.75%;
+    max-width: 90.625%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 93.75%;
+    padding-bottom: 90px;
   }
 }
 

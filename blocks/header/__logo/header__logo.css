@@ -1,3 +1,8 @@
+.header__logo {
+  align-self: center;
+}
+
+
 @media screen and (max-width: 768px) {
   .header__logo {
     max-width: calc((100vw - 320px) / (768 - 320) * (176 - 142) + 142px);

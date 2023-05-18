@@ -1,0 +1,16 @@
+.overlay::after {
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: rgba(42, 44, 47, 0.3);
+	transition: background-color 0.2s ease-in;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.overlay:hover:after {
+	background-color: rgba(42, 44, 47, 0.8);
+	transition: background-color 0.2s ease-in;
+}

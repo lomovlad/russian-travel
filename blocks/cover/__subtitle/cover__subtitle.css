@@ -3,10 +3,17 @@
 	max-width: 360px;
 	font-size: 1.125rem;
 	line-height: 1.22;
+	z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
     font-size: calc( (100vw - 20rem)/(48 - 20) * (1.125 - 0.875) + 0.875rem);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 90%;
   }
 }

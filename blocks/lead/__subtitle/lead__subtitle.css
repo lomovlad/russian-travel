@@ -4,11 +4,20 @@
   margin: 0 auto 64px;
   font-size: 1.88rem;
   line-height: 1.17;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    max-width: 88.89%;
+    max-width: 83.333%;
     font-size: calc( (100vw - 20rem)/(48 - 20) * (1.875 - 1) + 1rem);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    max-width: 90%;
+    font-size: calc( (100vw - 20rem)/(48 - 20) * (1.875 - 1) + 1rem);
+    margin-bottom: 40px;
   }
 }

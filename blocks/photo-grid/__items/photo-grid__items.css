@@ -5,7 +5,7 @@
   grid-gap: 16px;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(284px, auto));
-  padding: 91px 0;
+  padding: 92px 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,6 +19,7 @@
   .photo-grid__items {
     max-width: 93.75%;
     grid-gap: 16px;
+    padding: 88px 0;
   }
 }
 
@@ -26,5 +27,6 @@
   .photo-grid__items {
     max-width: 90%;
     grid-gap: 12px;
+    padding: 64px 0;
   }
 }
