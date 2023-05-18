@@ -20,9 +20,3 @@
     row-gap: 16px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .cover__link {
-    max-width: 288px;
-  }
-}
